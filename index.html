@@ -8,41 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <hero class="hero">
+    <div class="hero">
         <div class="row">
-            <div class="col-12">
-                <h1 class="text-center titolo oswald">Chuck Norris</h1>
+            <div class="col-12 text-center">
+                <img src="image.png" alt="Chuck Norris" id="image">
             </div>
         </div>
         
-            
-            <div class="istruzioni col-12 text-center">
-                <p>Seleziona una categoria e premi il pulsante per ricevere una frase celebre di Chuck Norris:</p>
+        <div class="istruzioni col-12 text-center">
+            <p>Seleziona una categoria e premi il pulsante per ricevere una frase celebre di Chuck Norris:</p>
+        </div>
+        <div class="option col-12 text-center">
+            <select name="opzioni" id="option" class="col-2">
+                <option value="0">Random</option>
+                <option value="animal">animal</option>
+                <option value="career">career</option>
+                <option value="celebrity">celebrity</option>
+                <option value="dev">dev</option>
+                <option value="explicit">explicit</option>
+                <option value="fashion">fashion</option>
+                <option value="food">food</option>
+                <option value="history">history</option>
+                <option value="money">money</option>
+                <option value="movie">movie</option>
+                <option value="music">music</option>
+                <option value="political">political</option>
+                <option value="religion">religion</option>
+                <option value="science">science</option>
+                <option value="sport">sport</option>
+                <option value="travel">travel</option>
+            </select>
+            <button id="btn" class="btn btn-primary">Load Joke</button>
+            <div id="battuta">
+                <p>Genera battuta</p>
             </div>
-    <div class="option col-12 text-center">
-
-    <select name="opzioni" id="option" class="col-2 ">
-        <option value="0">Seleziona una categoria</option>
-        <option value="1">animal</option>
-        <option value="2">career </option>
-        <option value="3">celebrity</option>
-        <option value="4">dev</option>
-        <option value="5">explicit</option>
-        <option value="6">fashion</option>
-        <option value="7">food</option>
-        <option value="8">history</option>
-        <option value="9">money</option>
-        <option value="10">movie</option>
-        <option value="11">music</option>
-        <option value="12">political</option>
-        <option value="13">religion</option>
-        <option value="14">science</option>
-        <option value="15">sport</option>
-        <option value="16">travel</option>
-
-    </select>
-    <button id="btn" class="btn btn-primary ">Load Joke</button>
-</div>
-    </hero>
+        </div>
+    </div>
+    <script src="style.js"></script>
 </body>
 </html>
