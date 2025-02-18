@@ -6,9 +6,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #cc2d2d, #ffcc00);
 }
-
 .hero {
     text-align: center;
     max-width: 600px;
@@ -16,7 +15,7 @@ body {
 }
 
 #image {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -39,17 +38,29 @@ body {
     font-weight: 400;
     font-style: normal;
     align-items: center;
-    background-color: orange;
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px ;
+    font-size: 17px;
+    
+    
+    
+    
 }
 
 #battuta {
     font-family: "Oswald", serif;
     margin-top: 20px;
-    font-size: 100%;
+    font-size: 25px
 }
 
 .btn{
-  border-radius: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: black;
+    border:black, 1px, solid;
+    padding: 10px 20px;
+
+    
 }
 
